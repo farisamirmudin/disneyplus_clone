@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="main.css" rel="stylesheet">
+        <link href="home.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="main.js"></script>
+		<title>codedamn Project</title>
+        <style>
+            /* Rules for sizing the icon. */
+            .material-icons.md-6 { font-size: 6px; }
+
+            /* Rules for using icons as white on a dark background. */
+            .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+            .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+        </style>
+	</head>
+	<body>
+		<div id="container-page">
+			<div id="head">
+				<img class="img-resp" src="assets/images/logo.svg" onclick="section()">
+				<button class="login">LOGIN</button>
+			</div>
+			<div id="login-page">
+				<img class="logo" src="assets/images/cta-logo-one.svg">
+				<button class="get-all-there"><b>GET ALL THERE</b></button>
+				<p>Get Premier Access to Raya and the Last Dragon for an additional fee with a Disney+ subscription.<br>As of 03/26/21, the price of Disney+ and the Disney Bundle will increase by $1</p>
+				<img class="logo" src="assets/images/cta-logo-two.png">
+			</div>
+			<div id="homepage">
+                <div class="slides">
+                    <img id="current">
+                    <img id="after">
+                    <img id="before">
+                </div>
+                <div class="dots">
+                    <i class="dot material-icons md-6 md-light md-inactive" onclick="show(0)">circle</i>
+                    <i class="dot material-icons md-6 md-light md-inactive" onclick="show(1)">circle</i>
+                    <i class="dot material-icons md-6 md-light md-inactive" onclick="show(2)">circle</i>
+                    <i class="dot material-icons md-6 md-light md-inactive" onclick="show(3)">circle</i>
+                </div>
+                <div class="producer">
+                    <div><img src="assets/images/scale17.jpg"></div>
+                    <div><img src="assets/images/scale10.jpg"></div>
+                    <div><img src="assets/images/scale7.jpg"></div>
+                    <div><img src="assets/images/scale2.jpg"></div>
+                    <div><img src="assets/images/scale8.jpg"></div>
+                </div>
+                <h5>Recommended For You</h5>
+                <div class="content">
+                    <div><img src="assets/images/scale11.jpg"></div>
+                    <div><img src="assets/images/scale3.jpg"></div>
+                    <div><img src="assets/images/scale12.jpg"></div>
+                    <div><img src="assets/images/scale.jpg"></div>
+                </div>
+                <h5>New to Disney+</h5>
+                <div class="content">
+                    <div><img src="assets/images/scale9.jpg"></div>
+                    <div><img src="assets/images/scale15.jpg"></div>
+                    <div><img src="assets/images/badging3.jpg"></div>
+                    <div><img src="assets/images/scale13.jpg"></div>
+                </div>
+                <h5>Originals</h5>
+                <div class="content">
+                    <div><img src="assets/images/badging2.jpg"></div>
+                    <div><img src="assets/images/badging.jpg"></div>
+                    <div><img src="assets/images/badging7.jpg"></div>
+                    <div><img src="assets/images/badging6.jpg"></div>
+                </div>
+                <h5>Trending</h5>
+                <div class="content">
+                    <div><img src="assets/images/scale5.jpg"></div>
+                    <div><img src="assets/images/scale18.jpg"></div>
+                    <div><img src="assets/images/scale4.jpg"></div>
+                    <div><img src="assets/images/scale14.jpg"></div>
+                </div>
+			</div>
+		</div>
+        <script>show(index);</script>
+	</body>
+</html>
